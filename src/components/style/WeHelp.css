@@ -1,0 +1,11 @@
+
+.WeHelp .left .img1::before{
+    content:'';
+    position: absolute;
+    left: -110px;
+    top: -90px;
+    background-image: url(/imges/dots-green.svg);
+    width: 255px;
+    height: 217px;
+    z-index: -1;
+}

@@ -1,0 +1,12 @@
+.manheader   .right .imge::before{
+    position: absolute;
+    content: '';
+    background-image: url(/imges/dots-light.svg);
+    width: 255px;
+    height: 217px;
+    right: -80px;
+    top: 0;
+    z-index: 0;
+}
+
+

@@ -1,0 +1,18 @@
+.ComponentListLinks{
+    animation: box-List 1s ease-in-out forwards;
+}
+
+@keyframes box-List{
+    0%{
+        opacity: 0;
+        transform: scale(0);
+    }
+    50%{
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
