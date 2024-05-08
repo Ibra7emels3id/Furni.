@@ -31,8 +31,8 @@ const CheckOut = () => {
                 <Navbar />
                 <div className="manheader overflow-hidden">
                     <div className='head w-11/12 m-auto flex items-center justify-between pt-44 pb-20'>
-                        <div className="left w-2/4">
-                            <h4 className=' py-4 font-extrabold text-6xl text-white'>
+                        <div className="left w-full">
+                            <h4 className=' py-4 font-extrabold text-4xl md:text-6xl text-white'>
                                 Check Out...
                             </h4>
                         </div>
@@ -55,14 +55,14 @@ const CheckOut = () => {
                                 <option value="Egypt">Egypt</option>
                                 <option value="Egypt">Egypt</option>
                             </select>
-                            <div className="Name w-full grid grid-cols-2 gap-5">
+                            <div className="Name w-full grid grid-cols-1 md:grid-cols-2 gap-5">
                                 <input className='h-12 border px-2 rounded focus:border-gray-700' type="text" name="" id="" placeholder='Enter your First Name' />
                                 <input className='h-12 border px-2 rounded focus:border-gray-700' type="text" name="" id="" placeholder='Enter your Last Name' />
                             </div>
                             <input className='h-12 border px-2 rounded focus:border-gray-700' type="text" name="" id="" placeholder='Company Name' />
                             <input className='h-12 border px-2 rounded focus:border-gray-700' type="text" name="" id="" placeholder='Address *' />
                             <input className='h-12 border px-2 rounded focus:border-gray-700' type="text" name="" id="" placeholder='Apartment, suite, unit etc. (optional)' />
-                            <div className="Code-Posta grid grid-cols-2 w-full gap-5">
+                            <div className="Code-Posta grid grid-cols-1 md:grid-cols-2 w-full gap-5">
                                 <input className='h-12 border px-2 rounded focus:border-gray-700' type="text" name="" id="" placeholder='State / Country' />
                                 <input className='h-12 border px-2 rounded focus:border-gray-700' type="text" name="" id="" placeholder='Posta / Zip' />
                                 <input className='h-12 border px-2 rounded focus:border-gray-700' type="text" name="" id="" placeholder='Email Address' />

@@ -76,8 +76,8 @@ const Cart = () => {
                 <p className='fs-1 p-4'>your is currentiy empty</p>
                 <Link to='/shop' className='btn fs-4 bg-neutral-900 h-12 w-52 flex items-center justify-center m-auto text-white rounded-xl'><ArrowBackIcon className='fs-3' /> start Shopping</Link>
             </div> : <>
-                <TableContainer sx={{ width: '90%', margin: '50px auto' }} className='mt-5 mb-5' component={Paper}>
-                    <Table sx={{ minWidth: 100 }} aria-label="customized table">
+                <TableContainer sx={{ width: '90%', margin: '50px auto'  }} className='mt-5 mb-5' component={Paper}>
+                    <Table sx={{ minWidth: 1000 }} aria-label="customized table">
                         <TableHead sx={{ width: '200px' }}>
                             <TableRow sx={{ width: '200px' }}>
                                 <StyledTableCell align="center" sx={{ width: '150px' }}>Cart Imge</StyledTableCell>
@@ -116,7 +116,7 @@ const Cart = () => {
                         </TableBody>
                     </Table>
                 </TableContainer>
-                <div className="CrackPayoment p-5 pb-20 w-11/12 m-auto flex items-center justify-between">
+                <div className="CrackPayoment p-5 pb-20 w-11/12 m-auto flex flex-wrap gap-y-10 items-center justify-between">
                     <button onClick={() => {
                         dispatch(ClearCards())
                     }} className='btn bg-red-900 mt-4 h-12 w-52 flex items-center justify-center text-white rounded-xl'>Clear items</button>
