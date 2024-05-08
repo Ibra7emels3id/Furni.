@@ -50,7 +50,7 @@ const Footer = () => {
                                 <Link className=' h-12 w-12 bg-green-200 flex items-center justify-center rounded-full text-green-950' to=''><InstagramIcon /></Link>
                             </div>
                         </div>
-                        <div className='col-span-3 grid grid-cols-1 gap-y-10 md:grid-cols-2 md:text-start text-center'>
+                        <div className='col-span-3 grid grid-cols-1 gap-y-10 md:grid-cols-2 lg:grid-cols-4 md:text-start text-center'>
                             <div className="box">
                                 <div className="links pl-0 md:pl-10">
                                     <ul className='flex gap-3 flex-col'>
